@@ -1,24 +1,90 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander\\Commander.csproj": {}
+    "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander\\Commander.csproj": {}
   },
   "projects": {
-    "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj": {
+    "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.BLL\\Commander.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
-        "projectName": "Commander.DAL",
-        "projectPath": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
-        "packagesPath": "C:\\Users\\unifi\\.nuget\\packages\\",
-        "outputPath": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\obj\\",
+        "projectUniqueName": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.BLL\\Commander.BLL.csproj",
+        "projectName": "Commander.BLL",
+        "projectPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.BLL\\Commander.BLL.csproj",
+        "packagesPath": "C:\\Users\\Toxic\\.nuget\\packages\\",
+        "outputPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\unifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Toxic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj": {
+                "projectPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
+        "projectName": "Commander.DAL",
+        "projectPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
+        "packagesPath": "C:\\Users\\Toxic\\.nuget\\packages\\",
+        "outputPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Toxic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,21 +144,20 @@
         }
       }
     },
-    "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander\\Commander.csproj": {
+    "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander\\Commander.csproj",
+        "projectUniqueName": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander\\Commander.csproj",
-        "packagesPath": "C:\\Users\\unifi\\.nuget\\packages\\",
-        "outputPath": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander\\obj\\",
+        "projectPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander\\Commander.csproj",
+        "packagesPath": "C:\\Users\\Toxic\\.nuget\\packages\\",
+        "outputPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\unifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Toxic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,8 +171,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj": {
-                "projectPath": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj"
+              "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.BLL\\Commander.BLL.csproj": {
+                "projectPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.BLL\\Commander.BLL.csproj"
+              },
+              "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj": {
+                "projectPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj"
               }
             }
           }
@@ -122,6 +190,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.9, )"

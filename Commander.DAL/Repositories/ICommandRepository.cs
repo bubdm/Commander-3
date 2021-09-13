@@ -7,5 +7,6 @@ namespace Commander.DAL.Repositories
     {
         IEnumerable<Command> GetAll();
         Command GetById(int id);
+        void Create(Command item);
     }
 }

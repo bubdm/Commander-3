@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Commander.DAL
-build_property.ProjectDir = D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\
+build_property.ProjectDir = D:\SkillFactory\Understanding MVC\Commander\Commander.DAL\

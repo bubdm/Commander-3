@@ -3855,7 +3855,6 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5761,24 +5760,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\unifi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Toxic\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
+      "projectUniqueName": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
       "projectName": "Commander.DAL",
-      "projectPath": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
-      "packagesPath": "C:\\Users\\unifi\\.nuget\\packages\\",
-      "outputPath": "D:\\SkillFactory\\SF_C#_DEV-3\\Understanding-MVC\\Commander\\Commander.DAL\\obj\\",
+      "projectPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\Commander.DAL.csproj",
+      "packagesPath": "C:\\Users\\Toxic\\.nuget\\packages\\",
+      "outputPath": "D:\\SkillFactory\\Understanding MVC\\Commander\\Commander.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\unifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Toxic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

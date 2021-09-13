@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Commander.BLL.MappingProfiles;
 using Commander.DAL;
 using Commander.DAL.Repositories;
 using Microsoft.AspNetCore.Builder;
@@ -32,7 +34,17 @@ namespace Commander
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<CommanderContext>(option => option.UseSqlServer(connectionString));
             services.AddScoped<ICommandRepository, CommandRepository>();
+
+            // этот вариант подключения стырен из модуля 34 про HomeApi
+            var assembly = Assembly.GetAssembly(typeof(CommandsProfile));
+            services.AddAutoMapper(assembly);
+            
             services.AddControllers();
+            // такой вариант был в видосе
+            // вызывал ошибку Missing type map configuration or unsupported mapping.
+            // наверное из-за трехслойки, поскольку в видосе всё свалено в один проект
+            //services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Commander", Version = "v1"}); });
         }
 
