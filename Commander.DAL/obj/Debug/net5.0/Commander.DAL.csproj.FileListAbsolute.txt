@@ -1,0 +1,15 @@
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\bin\Debug\net5.0\Commander.DAL.deps.json
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\bin\Debug\net5.0\Commander.DAL.dll
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\bin\Debug\net5.0\ref\Commander.DAL.dll
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\bin\Debug\net5.0\Commander.DAL.pdb
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.csproj.AssemblyReference.cache
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.AssemblyInfoInputs.cache
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.AssemblyInfo.cs
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.csproj.CoreCompileInputs.cache
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.dll
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\ref\Commander.DAL.dll
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.pdb
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\bin\Debug\net5.0\Commander.DAL.runtimeconfig.json
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\bin\Debug\net5.0\Commander.DAL.runtimeconfig.dev.json
+D:\SkillFactory\SF_C#_DEV-3\Understanding-MVC\Commander\Commander.DAL\obj\Debug\net5.0\Commander.DAL.genruntimeconfig.cache
