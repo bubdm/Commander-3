@@ -8,5 +8,9 @@ namespace Commander.DAL.Repositories
         IEnumerable<Command> GetAll();
         Command GetById(int id);
         void Create(Command item);
+        void Update(Command item);
+        void Delete(Command item);
+
+        bool SaveChanges();
     }
 }

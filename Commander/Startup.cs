@@ -16,6 +16,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json.Serialization;
 
 namespace Commander
 {
@@ -39,7 +40,13 @@ namespace Commander
             var assembly = Assembly.GetAssembly(typeof(CommandsProfile));
             services.AddAutoMapper(assembly);
             
-            services.AddControllers();
+            // к контроллерам добавлен прицеп Json-сериализации для потрошения параметров HttpPatch
+            // установлен Microsoft.AspNetCore.Mvc.NewtonsoftJson
+            services.AddControllers()
+                .AddNewtonsoftJson(s => {
+                    s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+                });
+            
             // такой вариант был в видосе
             // вызывал ошибку Missing type map configuration or unsupported mapping.
             // наверное из-за трехслойки, поскольку в видосе всё свалено в один проект

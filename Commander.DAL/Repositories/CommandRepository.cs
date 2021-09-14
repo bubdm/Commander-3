@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Commander.DAL.Models;
 
@@ -43,6 +44,39 @@ namespace Commander.DAL.Repositories
             */
 
             return _context.Commands.FirstOrDefault(p => p.Id == id);
+        }
+
+        public void Create(Command item)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item));
+            }
+
+            _context.Commands.Add(item);
+        }
+
+        public void Update(Command item)
+        {
+            // Nothing
+            // в этом слое ничего не требуется.
+            // от репозитория потребуется только сохранение измененной сущности
+        }
+
+        public void Delete(Command item)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item));
+            }
+
+            _context.Commands.Remove(item);
+        }
+
+        public bool SaveChanges()
+        {
+            return (_context.SaveChanges() >= 0);
+            
         }
     }
 }

@@ -128,3 +128,6 @@ D:\SkillFactory\Understanding MVC\Commander\Commander\bin\Debug\net5.0\AutoMappe
 D:\SkillFactory\Understanding MVC\Commander\Commander\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\SkillFactory\Understanding MVC\Commander\Commander\bin\Debug\net5.0\Commander.BLL.dll
 D:\SkillFactory\Understanding MVC\Commander\Commander\bin\Debug\net5.0\Commander.BLL.pdb
+D:\SkillFactory\Understanding MVC\Commander\Commander\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\SkillFactory\Understanding MVC\Commander\Commander\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\SkillFactory\Understanding MVC\Commander\Commander\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
